@@ -12,6 +12,9 @@
 from data import *
 
 # CSV
+path = r'files' 
+NAFTRAC_Historical = multiple_csv(path)
+
 
 # IPC TICKERS FROM YAHOO FINANCE
 

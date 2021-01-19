@@ -11,6 +11,8 @@
 
 import pandas as pd
 import pandas_datareader.data as web
+import os
+import glob
 
 
 # ADJ.CLOSED PRICES YAHOO
@@ -25,4 +27,9 @@ def get_closes(tickers, start_date=None, end_date=None, freq=None):
     return closes
 
 
-
+# READ MULTIPLE CSV FILES
+def multiple_csv(path):
+    all_files = glob.glob(os.path.join(path, "*.csv"))
+    df_from_each_file = (pd.read_csv(f) for f in all_files)
+    concatenated_df = pd.concat(df_from_each_file, ignore_index=True)
+    return concatenated_df
