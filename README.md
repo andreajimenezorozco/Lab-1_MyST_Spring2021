@@ -1,6 +1,5 @@
-## Description
-*Insert here a brief description of the project, including, purpose, technologies used and context 
-where it was created.*
+## Laboratorio 1. Inversión de Capital
+Comparativa de inversión pasiva vs. activa utilizando S&P BMV - IPC México
 
 ## Install dependencies
 
@@ -15,7 +14,7 @@ Or you can manually install one by one using the name and version in the file.
 *Add here examples of core functionalities for the project in this repository.*
 
 ## Author
-*Add Name and a brief description on who you are.*
+Andrea Jiménez Orozco IF706970
 
 ## License
 **GNU General Public License v3.0** 
