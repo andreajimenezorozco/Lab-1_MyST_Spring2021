@@ -1,22 +1,26 @@
 
 """
 # -- --------------------------------------------------------------------------------------------------- -- #
-# -- project: A SHORT DESCRIPTION OF THE PROJECT                                                         -- #
+# -- project: Lab. 1                                                         -- #
 # -- script: main.py : python script with the main functionality                                         -- #
-# -- author: YOUR GITHUB USER NAME                                                                       -- #
+# -- author: Andrea Jiménez IF706970 Github: andreajimenezorozco                                                                       -- #
 # -- license: GPL-3.0 License                                                                            -- #
-# -- repository: YOUR REPOSITORY URL                                                                     -- #
+# -- repository: https://github.com/andreajimenezorozco/Lab-1_MyST_Spring2021                                                                    -- #
 # -- --------------------------------------------------------------------------------------------------- -- #
 """
 
-import pandas as pd
-import data as dt
+from data import *
 
-# -- TEST 1 : 
-# verify that the script is being read
-print(dt.dict_test)
+# CSV
 
-# -- TEST 2 :
-# verify that installed pandas modeule works correctly
-df_dict_test = pd.DataFrame(dt.dict_test, index=[0,1])
-print(df_dict_test)
+# IPC TICKERS FROM YAHOO FINANCE
+
+tickers = []
+start, end = '2018-01-01', '2020-12-01'
+daily_closes = get_closes(tickers, start, end)
+
+# PASSIVE INVESTMENT
+
+# ACTIVE INVESTMENT
+
+# METRICS

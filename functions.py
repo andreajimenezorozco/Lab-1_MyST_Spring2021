@@ -1,10 +1,11 @@
 
 """
 # -- --------------------------------------------------------------------------------------------------- -- #
-# -- project: A SHORT DESCRIPTION OF THE PROJECT                                                         -- #
-# -- script: functions.py : python script with general functions                                         -- #
-# -- author: YOUR GITHUB USER NAME                                                                       -- #
+# -- project: Lab. 1                                                         -- #
+# -- script: main.py : python script with the main functionality                                         -- #
+# -- author: Andrea Jiménez IF706970 Github: andreajimenezorozco                                                                       -- #
 # -- license: GPL-3.0 License                                                                            -- #
-# -- repository: YOUR REPOSITORY URL                                                                     -- #
+# -- repository: https://github.com/andreajimenezorozco/Lab-1_MyST_Spring2021                                                                      -- #
 # -- --------------------------------------------------------------------------------------------------- -- #
 """
+

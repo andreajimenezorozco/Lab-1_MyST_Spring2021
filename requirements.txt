@@ -1,10 +1,10 @@
 
 # -- --------------------------------------------------------------------------------------------------- -- #
-# -- project: A SHORT DESCRIPTION OF THE PROJECT                                                         -- #
+# -- project: Lab.1                                                         -- #
 # -- script: requirements.txt : text file with the required libraries for the project                    -- #
-# -- author: YOUR GITHUB USER NAME                                                                       -- #
+# -- author: Andrea Jimenez IF706970                                                                       -- #
 # -- license: GPL-3.0 License                                                                            -- #
-# -- repository: YOUR REPOSITORY URL                                                                     -- #
+# -- repository: https://github.com/andreajimenezorozco/Lab-1_MyST_Spring2021                                                                     -- #
 # -- --------------------------------------------------------------------------------------------------- -- #
 
 pandas>=1.1.0
