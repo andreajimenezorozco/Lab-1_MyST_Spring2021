@@ -1,5 +1,8 @@
-## Laboratorio 1. Inversión de Capital
-Comparativa de inversión pasiva vs. activa utilizando S&P BMV - IPC México
+## Lab 1. Capital Investment
+
+Capital investments using passive investment vs. passiva investment using the S&P BMV - IPC 
+
+S&P BMV - IPC México
 
 ## Install dependencies
 
@@ -25,4 +28,4 @@ works using a licensed work, under the same license. Copyright and license notic
 must be preserved. Contributors provide an express grant of patent rights.*
 
 ## Contact
-*For more information in reggards of this repo, please contact name@email.com*
+*For more information in reggards of this repo, please contact if706970@iteso.com*
