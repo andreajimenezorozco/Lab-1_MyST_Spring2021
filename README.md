@@ -2,7 +2,6 @@
 
 Capital investments using passive investment vs. passiva investment using the S&P BMV - IPC 
 
-S&P BMV - IPC México
 
 ## Install dependencies
 
