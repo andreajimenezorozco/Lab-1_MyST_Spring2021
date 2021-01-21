@@ -30,6 +30,6 @@ def get_closes(tickers, start_date=None, end_date=None, freq=None):
 # READ MULTIPLE CSV FILES
 def multiple_csv(path):
     all_files = glob.glob(os.path.join(path, "*.csv"))
-    df_from_each_file = (pd.read_csv(f) for f in all_files)
+    df_from_each_file = (pd.read_csv(f, usecols=[0, 1, 3, 4, 16]) for f in all_files)
     concatenated_df = pd.concat(df_from_each_file, ignore_index=True)
     return concatenated_df
