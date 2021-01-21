@@ -1,6 +1,6 @@
 ## Lab 1. Capital Investment
 
-Capital investments using passive investment vs. passiva investment using the S&P BMV - IPC 
+Passive Vs. Active investment using the S&P BMV - IPC 
 
 
 ## Install dependencies
