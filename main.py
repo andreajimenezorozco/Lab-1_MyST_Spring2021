@@ -9,15 +9,10 @@
 # -- --------------------------------------------------------------------------------------------------- -- #
 """
 
-from data import *
 from functions import *
 
-dates = dates_for_files(path=str)
-data_from_files = multiple_csv(path=str)
-historical = cleaning_data(data_from_files)
-data = global_df(prices=float, dates=str, historical,fix)
+dates = dates_for_files(path)
 
-passive_df = passive_investment(k=int, c=float, data)
 
 
 
