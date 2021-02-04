@@ -25,3 +25,23 @@ def multiple_csv(path):
         file_list.append(df)
     all_df = pd.concat(file_list, ignore_index=True)
     return all_df
+
+
+def cleaning_data(df):
+    df['Ticker'] = [i.replace('*', '') for i in df['Ticker']]
+    df['Ticker'] = df['Ticker'] + '.MX'
+    df['Peso (%)'] = df['Peso (%)'] / 100
+
+    # Tickers
+    df['Ticker'] = df['Ticker'].replace('LIVEPOLC.1.MX', 'LIVEPOLC-1.MX')
+    df['Ticker'] = df['Ticker'].replace('MEXCHEM.MX', 'ORBIA.MX')
+    df['Ticker'] = df['Ticker'].replace('SITESB.1.MX', 'SITESB-1.MX')
+    df['Ticker'] = df['Ticker'].replace('GFREGIOO.MX', 'RA.MX')
+    df['Ticker'] = df['Ticker'].replace('NMKA.MX', 'NEMAKA.MX')
+
+    # Remover tickers para CASH
+    tickers_drop = ['KOFL.MX', 'BSMXB.MX', 'MXN.MX', 'USD.MX', '\xa0.MX', 'KOFUBL.MX']
+    rows = list(df[list(df['Ticker'].isin(tickers_drop))].index)
+    df.drop(rows, inplace=True)
+    return df.set_index('Fecha')
+
