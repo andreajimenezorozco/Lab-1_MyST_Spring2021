@@ -45,3 +45,4 @@ def cleaning_data(df):
     df.drop(rows, inplace=True)
     return df.set_index('Fecha')
 
+
