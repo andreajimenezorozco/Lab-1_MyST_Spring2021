@@ -8,7 +8,7 @@ Este proyecto fue elaborado por **Andrea Jiménez Orozco**, como un trabajo parc
 
 La intención del presente trabajo es hacer una comparativa simple entre utilizar una inversión **Pasiva Vs. Activa** en el mismo periodo de tiempo. El cual comprende del **31 enero del 2018 al 31 de dicembre del 2020.**
 
-Para crear una cartera de inversión pasiva, nos apoyaremos de un **ETF** *(exchange-trade-fund)* **NAFTRAC iShares** de **BlackRock** el cual réplica el índice mexicano **S&P - BMV**, cuya información disponible y archivos utilizados para el análsis se pueden encontrar en el siguiente link: 
+Para crear una cartera de inversión pasiva, nos apoyaremos de un **ETF** *(exchange-trade-fund)* **NAFTRAC iShares** de **BlackRock** el cual réplica el índice mexicano **S&P - BMV**, cuya información disponible y archivos utilizados para el análisis se pueden encontrar en el siguiente link: 
 
 - https://www.blackrock.com/mx/intermediarios/productos/251895/ishares-naftrac-fund
 
