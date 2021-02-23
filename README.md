@@ -10,7 +10,7 @@ La intención del presente trabajo es hacer una comparativa simple entre utiliza
 
 Para crear una cartera de inversión pasiva, nos apoyaremos de un **ETF** *(exchange-trade-fund)* **NAFTRAC iShares** de **BlackRock** el cual réplica el índice mexicano **S&P - BMV**, cuya información disponible y archivos utilizados para el análsis se pueden encontrar en el siguiente link: https://www.blackrock.com/mx/intermediarios/productos/251895/ishares-naftrac-fund
 
-## Estructura de Proyecto
+## Estructura de proyecto
 
 La estructura de proyecto se basa en crear diferentes archivos de Python los cuales mandamos llamar al inicio en una sola línea dentro del cuaderno de Jupyter. Cada función tiene un objetivo distinto, consecutivo y complementario para la creación del análisis. Esto nos permite obtener como resultado una organización más limpia, funcional y eficiente, lo que se traduce en una mejor comprensión para el lector.
 
