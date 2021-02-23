@@ -11,18 +11,33 @@ La intención del presente trabajo es hacer una comparativa simple entre utiliza
 Para crear una cartera de inversión pasiva, nos apoyaremos de un ETF (exchange-trade-fund) NAFTRAC iShares de BlackRock el cual réplica el índice mexicano S&P - BMV, cuya información disponible y archivos utilizados para el análsis se pueden encontrar en el siguiente link: https://www.blackrock.com/mx/intermediarios/productos/251895/ishares-naftrac-fund
 
 
+## Estructura de Proyecto
+
+La estructura de proyecto se basa en crear diferentes archivos de Python los cuales mandamos llamar al inicio en una sola línea dentro del cuaderno de Jupyter. Cada función tiene un objetivo distinto, consecutivo y complementario para la creación del análisis. Esto nos permite obtener como resultado una organización más limpia, funcional y eficiente, lo que se traduce en una mejor comprensión para el lector.
+
+Los elementos son los siguientes:
+
+**main.py**
+  *Contiene el orden secuencial de las funciones principales para correr el análisis.*
+**functions.py**
+  *Contiene todas las funciones referentes al cálculo de ambas estrategias.*
+**data.py**
+  *Contiene todas las funciones referentes a la descarga y manejo de datos.*
+**visualizations.py**
+  Contiene todas las funciones correspondientes a la creación de gráficas y/o elementos visuales. 
+
 ## Instalar dependencias
 
 Instalar todas las dependencias que se encuentran en el archivo requirements.txt, solo corra eL siguiente commando en su terminal:
 
         pip install -r requirements.txt
         
-## License
+## Licencia
 **GNU General Public License v3.0**
 
 Los permisos de esta licencia están condicionados a poner a disposición el código fuente completo de los trabajos con licencia y las modificaciones, que incluyen trabajos más grandes que utilizan un trabajo con licencia, bajo la misma licencia. Se deben conservar los avisos de derechos de autor y licencias. Los contribuyentes proporcionan una concesión expresa de derechos de patente.
 
-## Contact
+## Contacto
 
 ¿Qué es Ingeniería Financiera? En Ingeniería Financiera aprendes a formular estrategias comerciales y proyectos de inversión que puedan asegurar la viabilidad y rentabilidad de los planes de generación de riqueza de empresas, gobiernos y particulares. Desarrollas competencias para construir modelos matemáticos de diferentes escenarios de negocio considerando los objetivos de los inversores y los riesgos que puedan surgir, permitiendo así que empresas y comunidades se transformen en espacios de bienestar y desarrollo. Aplicas los conocimientos adquiridos a problemas como el desarrollo de nuevos productos financieros, propones estrategias para estimular el crecimiento de las empresas, y tomas decisiones basadas en la ciencia de datos y la simulación de escenarios de negocio que convierten los riesgos en oportunidades de crecimiento y competitividad.
 
