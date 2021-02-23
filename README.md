@@ -2,7 +2,7 @@
 
 ### Abtract
 
-Este proyecto fue elaborado por **Andrea Jiménez Orozco**, como un trabajo parcial para la materia de **Microestructura y Sistemas de Trading**, la cual es parte del curriculum de la licenciatura en Ingeniería Financiera, ofertada por la universidad **ITESO**. En el presente trabajo se plantea la respuesta a la siguiente pregunta: *¿Qué estrategia de inversión propondrías si tu trabajo fuera administrar 1 Millón de pesos?*
+Este proyecto fue elaborado por **Andrea Jiménez Orozco**, como un trabajo parcial para la materia de **Microestructura y Sistemas de Trading**, la cual es parte del curriculum de la licenciatura en **Ingeniería Financiera**, ofertada por la universidad **ITESO**. En el presente trabajo se plantea la respuesta a la siguiente pregunta: *¿Qué estrategia de inversión propondrías si tu trabajo fuera administrar 1 Millón de pesos?*
 
 ### Objetivos
 
