@@ -13,7 +13,7 @@ Para crear una cartera de inversión pasiva, nos apoyaremos de un ETF (exchange-
 
 ## Instalar dependencias
 
-Instalar todas las dependencias que se encuentran en el archivo requirements.txt, solo corra e siguiente commando en su terminal:
+Instalar todas las dependencias que se encuentran en el archivo requirements.txt, solo corra eL siguiente commando en su terminal:
 
         pip install -r requirements.txt
         
