@@ -8,7 +8,9 @@ Este proyecto fue elaborado por **Andrea Jiménez Orozco**, como un trabajo parc
 
 La intención del presente trabajo es hacer una comparativa simple entre utilizar una inversión **Pasiva Vs. Activa** en el mismo periodo de tiempo. El cual comprende del **31 enero del 2018 al 31 de dicembre del 2020.**
 
-Para crear una cartera de inversión pasiva, nos apoyaremos de un **ETF** *(exchange-trade-fund)* **NAFTRAC iShares** de **BlackRock** el cual réplica el índice mexicano **S&P - BMV**, cuya información disponible y archivos utilizados para el análsis se pueden encontrar en el siguiente link: https://www.blackrock.com/mx/intermediarios/productos/251895/ishares-naftrac-fund
+Para crear una cartera de inversión pasiva, nos apoyaremos de un **ETF** *(exchange-trade-fund)* **NAFTRAC iShares** de **BlackRock** el cual réplica el índice mexicano **S&P - BMV**, cuya información disponible y archivos utilizados para el análsis se pueden encontrar en el siguiente link: 
+
+- https://www.blackrock.com/mx/intermediarios/productos/251895/ishares-naftrac-fund
 
 ### Para facilitar la lectura, comentarios y conclusiones descargar y/o consultar el archivo de notebook.py/notebook.html 
 
@@ -19,17 +21,17 @@ La estructura de proyecto se basa en crear diferentes archivos de Python los cua
 Los elementos son los siguientes:
 
 - **main.py**
-  *Contiene el orden secuencial de las funciones principales para correr el análisis.*
+  *contiene el orden secuencial de las funciones principales para correr el análisis.*
 - **functions.py**
-  *Contiene todas las funciones referentes al cálculo de ambas estrategias.*
+  *contiene todas las funciones referentes al cálculo de ambas estrategias.*
 - **data.py**
-  *Contiene todas las funciones referentes a la descarga y manejo de datos.*
+  *contiene todas las funciones referentes a la descarga y manejo de datos.*
 - **visualizations.py**
-  *Contiene todas las funciones correspondientes a la creación de gráficas y/o elementos visuales.*
+  *contiene todas las funciones correspondientes a la creación de gráficas y/o elementos visuales.*
 
 ## Instalar dependencias
 
-Instalar todas las dependencias que se encuentran en el archivo requirements.txt, solo corra eL siguiente commando en su terminal:
+Instalar todas las dependencias que se encuentran en el archivo **requirements.txt**, solo corra el siguiente comando en su terminal:
 
         pip install -r requirements.txt
    
