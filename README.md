@@ -1,10 +1,10 @@
 ## Laboratorio 1. Inversión de Capital
 
-### Abtract
+## Abtract
 
 Este proyecto fue elaborado por **Andrea Jiménez Orozco**, como un trabajo parcial para la materia de **Microestructura y Sistemas de Trading**, la cual es parte del curriculum de la licenciatura en **Ingeniería Financiera**, ofertada por la universidad **ITESO**. En el presente trabajo se plantea la respuesta a la siguiente pregunta: *¿Qué estrategia de inversión propondrías si tu trabajo fuera administrar 1 Millón de pesos?*
 
-### Objetivos
+## Objetivos
 
 La intención del presente trabajo es hacer una comparativa simple entre utilizar una inversión **Pasiva Vs. Activa** en el mismo periodo de tiempo. El cual comprende del **31 enero del 2018 al 31 de dicembre del 2020.**
 
